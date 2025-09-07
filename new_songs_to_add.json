@@ -1,0 +1,986 @@
+[
+  {
+    "name": "Meet Me in the Woods",
+    "albumName": "Strange Trails",
+    "artistName": "Lord Huron",
+    "genre": "Mellow"
+  },
+  {
+    "name": "She's A Bad Mama Jama (She's Built, She's Stacked) (Single Version)",
+    "albumName": "Carl Carlton (Expanded Edition)",
+    "artistName": "Carl Carlton",
+    "genre": "Pop"
+  },
+  {
+    "name": "Give It To Me Baby",
+    "albumName": "Street Songs (Deluxe Edition)",
+    "artistName": "Rick James",
+    "genre": "Pop"
+  },
+  {
+    "name": "Roses on a Breeze",
+    "albumName": "Red Earth & Pouring Rain",
+    "artistName": "Bear's Den",
+    "genre": "Mellow"
+  },
+  {
+    "name": "state of mind",
+    "albumName": "state of mind (Single)",
+    "artistName": "sø d ven",
+    "genre": "Chill"
+  },
+  {
+    "name": "Stubborn Beast",
+    "albumName": "Islands (Deluxe)",
+    "artistName": "Bear's Den",
+    "genre": "Mellow"
+  },
+  {
+    "name": "More Than Hate",
+    "albumName": "More Than Hate",
+    "artistName": "Bilmuri",
+    "genre": "New Rock"
+  },
+  {
+    "name": "Camouflage",
+    "albumName": "Camouflage",
+    "artistName": "Joseph O'Brien",
+    "genre": "Pop"
+  },
+  {
+    "name": "Coming Undone",
+    "albumName": "See You On the Other Side",
+    "artistName": "Korn",
+    "genre": "Metal"
+  },
+  {
+    "name": "Mad At Myself",
+    "albumName": "Issues",
+    "artistName": "Issues",
+    "genre": "New Rock"
+  },
+  {
+    "name": "Cursive",
+    "albumName": "Happy Never After",
+    "artistName": "VOILÀ & Kellin Quinn",
+    "genre": "New Rock"
+  },
+  {
+    "name": "Rescue",
+    "albumName": "Rescue",
+    "artistName": "One Common",
+    "genre": "Christian"
+  },
+  {
+    "name": "Stand",
+    "albumName": "Stand",
+    "artistName": "One Common",
+    "genre": "Christian"
+  },
+  {
+    "name": "Faded",
+    "albumName": "Different World",
+    "artistName": "Alan Walker",
+    "genre": "Chill"
+  },
+  {
+    "name": "Chokehold",
+    "albumName": "Chronicles of the Darkest Hour",
+    "artistName": "Austin Giorgio",
+    "genre": "Pop"
+  },
+  {
+    "name": "Rollercoaster",
+    "albumName": "Strange Desire",
+    "artistName": "Bleachers",
+    "genre": "New Rock"
+  },
+  {
+    "name": "Smooth (feat. Rob Thomas)",
+    "albumName": "Supernatural (Remastered)",
+    "artistName": "Santana",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "Sound of Madness",
+    "albumName": "The Sound of Madness (Deluxe Edition)",
+    "artistName": "Shinedown",
+    "genre": "New Rock"
+  },
+  {
+    "name": "Human",
+    "albumName": "Human (Deluxe)",
+    "artistName": "Rag'n'Bone Man",
+    "genre": "Mellow"
+  },
+  {
+    "name": "It Ain't Easy",
+    "albumName": "I've Tried Everything But Therapy (Part 2)",
+    "artistName": "Teddy Swims",
+    "genre": "Pop"
+  },
+  {
+    "name": "Gentle Heart",
+    "albumName": "Ash & Stone",
+    "artistName": "Joshua Hyslop",
+    "genre": "Mellow"
+  },
+  {
+    "name": "That's What I Like",
+    "albumName": "24K Magic",
+    "artistName": "Bruno Mars",
+    "genre": "Pop"
+  },
+  {
+    "name": "String Theory (feat. Marco Sfogli)",
+    "albumName": "Circadian",
+    "artistName": "Intervals",
+    "genre": "Metal"
+  },
+  {
+    "name": "Start Over",
+    "albumName": "Glide",
+    "artistName": "Fiji Blue",
+    "genre": "Chill"
+  },
+  {
+    "name": "oasis for my soul",
+    "albumName": "oasis for my soul",
+    "artistName": "Strings And Heart",
+    "genre": "Christian"
+  },
+  {
+    "name": "Feel Good Drag",
+    "albumName": "New Surrender",
+    "artistName": "Anberlin",
+    "genre": "New Rock"
+  },
+  {
+    "name": "If We Have Each Other",
+    "albumName": "Narrated For You",
+    "artistName": "Alec Benjamin",
+    "genre": "Sad"
+  },
+  {
+    "name": "Unhappy Hour (with Weathers)",
+    "albumName": "The Last Laugh (Part I)",
+    "artistName": "VOILÀ & Weathers",
+    "genre": "New Rock"
+  },
+  {
+    "name": "First Kiss",
+    "albumName": "Tasmanian Glow",
+    "artistName": "Strawberry Girls",
+    "genre": "New Rock"
+  },
+  {
+    "name": "Classic",
+    "albumName": "MKTO",
+    "artistName": "MKTO",
+    "genre": "Pop"
+  },
+  {
+    "name": "Unknown / Nth",
+    "albumName": "Unreal Unearth",
+    "artistName": "Hozier",
+    "genre": "Mellow"
+  },
+  {
+    "name": "Bye Bye Bye",
+    "albumName": "No Strings Attached",
+    "artistName": "*NSYNC",
+    "genre": "Pop"
+  },
+  {
+    "name": "The Dark of You",
+    "albumName": "Ember",
+    "artistName": "Breaking Benjamin",
+    "genre": "New Rock"
+  },
+  {
+    "name": "tension",
+    "albumName": "tension",
+    "artistName": "Haiden Henderson",
+    "genre": "Pop"
+  },
+  {
+    "name": "Mustang Sally (feat. Andrew Strong)",
+    "albumName": "The Commitments",
+    "artistName": "The Commitments",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "There's Nothing Holdin' Me Back",
+    "albumName": "Illuminate (Deluxe)",
+    "artistName": "Shawn Mendes",
+    "genre": "Pop"
+  },
+  {
+    "name": "Guilty",
+    "albumName": "I've Tried Everything But Therapy (Part 2)",
+    "artistName": "Teddy Swims",
+    "genre": "Pop"
+  },
+  {
+    "name": "Feel It Still",
+    "albumName": "Woodstock (Deluxe Edition)",
+    "artistName": "Portugal. The Man",
+    "genre": "New Rock"
+  },
+  {
+    "name": "Pink Pony Club",
+    "albumName": "The Rise and Fall of a Midwest Princess",
+    "artistName": "Chappell Roan",
+    "genre": "Pop"
+  },
+  {
+    "name": "STAY",
+    "albumName": "F*CK LOVE 3+: OVER YOU",
+    "artistName": "The Kid LAROI & Justin Bieber",
+    "genre": "Pop"
+  },
+  {
+    "name": "Whatever It Takes",
+    "albumName": "Evolve",
+    "artistName": "Imagine Dragons",
+    "genre": "New Rock"
+  },
+  {
+    "name": "Youngblood",
+    "albumName": "Youngblood (Deluxe)",
+    "artistName": "5 Seconds Of Summer",
+    "genre": "Pop"
+  },
+  {
+    "name": "Demons",
+    "albumName": "Night Visions (Deluxe)",
+    "artistName": "Imagine Dragons",
+    "genre": "New Rock"
+  },
+  {
+    "name": "Lose Control (Radio Edit)",
+    "albumName": "Lose Control (Alt. Versions)",
+    "artistName": "Teddy Swims",
+    "genre": "Pop"
+  },
+  {
+    "name": "Kings & Queens",
+    "albumName": "Heaven & Hell",
+    "artistName": "Ava Max",
+    "genre": "Pop"
+  },
+  {
+    "name": "How Long",
+    "albumName": "Voicenotes",
+    "artistName": "Charlie Puth",
+    "genre": "Pop"
+  },
+  {
+    "name": "Damocles",
+    "albumName": "Damocles",
+    "artistName": "Sleep Token",
+    "genre": "Metal"
+  },
+  {
+    "name": "Watermelon Sugar",
+    "albumName": "Fine Line",
+    "artistName": "Harry Styles",
+    "genre": "Pop"
+  },
+  {
+    "name": "Chandelier",
+    "albumName": "1000 Forms Of Fear (Deluxe Version)",
+    "artistName": "Sia",
+    "genre": "Pop"
+  },
+  {
+    "name": "Dance Monkey",
+    "albumName": "Welcome To The Madhouse (Deluxe)",
+    "artistName": "Tones And I",
+    "genre": "Pop"
+  },
+  {
+    "name": "The Door",
+    "albumName": "I've Tried Everything But Therapy (Part 1)",
+    "artistName": "Teddy Swims",
+    "genre": "Pop"
+  },
+  {
+    "name": "I Like Me Better",
+    "albumName": "I met you when I was 18. (the playlist)",
+    "artistName": "Lauv",
+    "genre": "Pop"
+  },
+  {
+    "name": "Sunroof",
+    "albumName": "Sunroof (Remixes)",
+    "artistName": "Nicky Youre & dazy",
+    "genre": "Pop"
+  },
+  {
+    "name": "Bad Dreams",
+    "albumName": "I've Tried Everything But Therapy (Part 2)",
+    "artistName": "Teddy Swims",
+    "genre": "Pop"
+  },
+  {
+    "name": "Unstoppable",
+    "albumName": "This Is Acting (Deluxe Version)",
+    "artistName": "Sia",
+    "genre": "Pop"
+  },
+  {
+    "name": "The Vengeful One",
+    "albumName": "Immortalized (Deluxe Edition)",
+    "artistName": "Disturbed",
+    "genre": "Metal"
+  },
+  {
+    "name": "Eyes Closed",
+    "albumName": "LOOM",
+    "artistName": "Imagine Dragons",
+    "genre": "New Rock"
+  },
+  {
+    "name": "Symphony (feat. Dillon Chase)",
+    "albumName": "Symphony (Deluxe Edition)",
+    "artistName": "Switch",
+    "genre": "Christian"
+  },
+  {
+    "name": "Routines In The Night",
+    "albumName": "Clancy",
+    "artistName": "Twenty One Pilots",
+    "genre": "New Rock"
+  },
+  {
+    "name": "Every Time You Leave",
+    "albumName": "TRAUMA",
+    "artistName": "I Prevail",
+    "genre": "New Rock"
+  },
+  {
+    "name": "Rain or Shine",
+    "albumName": "Memory Bank",
+    "artistName": "Drew Holcomb, Ellie Holcomb & Drew Holcomb & The Neighbors",
+    "genre": "Country"
+  },
+  {
+    "name": "Way Maker",
+    "albumName": "Way Maker",
+    "artistName": "Leeland",
+    "genre": "Christian"
+  },
+  {
+    "name": "Man On Fire",
+    "albumName": "Man On Fire (Deluxe)",
+    "artistName": "Luke Bower",
+    "genre": "Christian"
+  },
+  {
+    "name": "Walls Fall Down (feat. Lee Brice)",
+    "albumName": "A Hundred Highways (Extended Edition)",
+    "artistName": "Zach Williams",
+    "genre": "Christian"
+  },
+  {
+    "name": "Spirit Lead Me (Live)",
+    "albumName": "Touching Heaven (Live)",
+    "artistName": "Influence Music & Michael Ketterer",
+    "genre": "Christian"
+  },
+  {
+    "name": "The Heat",
+    "albumName": "Divided Frame Of Mind",
+    "artistName": "Stephen Stanley",
+    "genre": "Christian"
+  },
+  {
+    "name": "Oasis",
+    "albumName": "Stephen Stanley",
+    "artistName": "Stephen Stanley",
+    "genre": "Christian"
+  },
+  {
+    "name": "Hard Fought Hallelujah",
+    "albumName": "Hard Fought Hallelujah: Heavyweight Edition",
+    "artistName": "Brandon Lake",
+    "genre": "Christian"
+  },
+  {
+    "name": "Stuck In My Head",
+    "albumName": "Stuck In My Head",
+    "artistName": "Sleep Theory",
+    "genre": "New Rock"
+  },
+  {
+    "name": "Insane",
+    "albumName": "Insane (Single)",
+    "artistName": "Black Gryph0n & Baasik",
+    "genre": "New Rock"
+  },
+  {
+    "name": "Glow",
+    "albumName": "Glow",
+    "artistName": "Livingston",
+    "genre": "New Rock"
+  },
+  {
+    "name": "Black Sheep",
+    "albumName": "Black Sheep",
+    "artistName": "Ben Fuller",
+    "genre": "Christian"
+  },
+  {
+    "name": "Reckless",
+    "albumName": "A Dream Through Open Eyes",
+    "artistName": "The Strike",
+    "genre": "Pop"
+  },
+  {
+    "name": "Nothing More Than You",
+    "albumName": "To Love a Fool",
+    "artistName": "Cory Asbury",
+    "genre": "Christian"
+  },
+  {
+    "name": "This content is no longer on Pandora",
+    "albumName": "ALWAYS",
+    "artistName": "Darth Marley",
+    "genre": "Chill"
+  },
+  {
+    "name": "For You",
+    "albumName": "Love & War & The Sea In Between",
+    "artistName": "Josh Garrels",
+    "genre": "Christian"
+  },
+  {
+    "name": "Another Way",
+    "albumName": "Paper Hearts",
+    "artistName": "Sleep Theory",
+    "genre": "New Rock"
+  },
+  {
+    "name": "Rest On Us (Radio)",
+    "albumName": "Rest On Us",
+    "artistName": "Housefires, Bethel Music & Nick Day",
+    "genre": "Christian"
+  },
+  {
+    "name": "Double Down",
+    "albumName": "Double Down (Single)",
+    "artistName": "Go-Jo",
+    "genre": "Pop"
+  },
+  {
+    "name": "High Priest",
+    "albumName": "The Eternal Son",
+    "artistName": "Rivers & Robots",
+    "genre": "Christian"
+  },
+  {
+    "name": "Rest In The Father (Rock Version)",
+    "albumName": "Rest In The Father",
+    "artistName": "Stephen Stanley",
+    "genre": "Christian"
+  },
+  {
+    "name": "The Edge",
+    "albumName": "Divided Frame Of Mind",
+    "artistName": "Stephen Stanley",
+    "genre": "Christian"
+  },
+  {
+    "name": "Holding Me Up",
+    "albumName": "Divided Frame Of Mind",
+    "artistName": "Stephen Stanley",
+    "genre": "Christian"
+  },
+  {
+    "name": "Hurts For You",
+    "albumName": "Hurts For You",
+    "artistName": "Stephen Stanley",
+    "genre": "Christian"
+  },
+  {
+    "name": "Call Your Name",
+    "albumName": "Discovery",
+    "artistName": "Rivers & Robots",
+    "genre": "Christian"
+  },
+  {
+    "name": "Indigo (feat. Avery Anna)",
+    "albumName": "Restless Mind",
+    "artistName": "Sam Barber",
+    "genre": "Country"
+  },
+  {
+    "name": "Dreams",
+    "albumName": "Discovery",
+    "artistName": "Rivers & Robots",
+    "genre": "Christian"
+  },
+  {
+    "name": "Beautifully Broken",
+    "albumName": "The Deep End Vol. 1",
+    "artistName": "Gov't Mule",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "Say Something",
+    "albumName": "Say Something (Single)",
+    "artistName": "Go-Jo",
+    "genre": "Pop"
+  },
+  {
+    "name": "Soulshine",
+    "albumName": "The Deep End Vol. 1",
+    "artistName": "Gov't Mule",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "Snuff (2012 Remaster)",
+    "albumName": "Antennas to Hell (Special Edition)",
+    "artistName": "Slipknot",
+    "genre": "Sad"
+  },
+  {
+    "name": "Banks Of The Deep End",
+    "albumName": "The Deep End Vol. 1",
+    "artistName": "Gov't Mule",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "Stitch In Time",
+    "albumName": "Stitch In Time (Single)",
+    "artistName": "Bear's Den",
+    "genre": "Mellow"
+  },
+  {
+    "name": "Sit Next to Me",
+    "albumName": "Sacred Hearts Club",
+    "artistName": "Foster The People",
+    "genre": "Pop"
+  },
+  {
+    "name": "Hurts So Good",
+    "albumName": "American Fool",
+    "artistName": "John Mellencamp",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "Eyes Closed",
+    "albumName": "Eyes Closed",
+    "artistName": "Imagine Dragons",
+    "genre": "New Rock"
+  },
+  {
+    "name": "Give Me One Reason (Live)",
+    "albumName": "A Very Special Christmas Live From Washington D.C.",
+    "artistName": "Eric Clapton & Tracy Chapman",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "lowest of lows",
+    "albumName": "lowest of lows",
+    "artistName": "Josiah Queen",
+    "genre": "Christian"
+  },
+  {
+    "name": "Life in the Fast Lane (2013 Remaster)",
+    "albumName": "Hotel California (2013 Remaster)",
+    "artistName": "Eagles",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "Here Without You (2023 Remaster)",
+    "albumName": "Away From The Sun (Deluxe)",
+    "artistName": "3 Doors Down",
+    "genre": "New Rock"
+  },
+  {
+    "name": "Bring Me Back Home",
+    "albumName": "Signs",
+    "artistName": "Jonny Lang",
+    "genre": "Chill"
+  },
+  {
+    "name": "What It's Like",
+    "albumName": "Whitey Ford Sings the Blues",
+    "artistName": "Everlast",
+    "genre": "Sad"
+  },
+  {
+    "name": "My Refuge",
+    "albumName": "Discovery",
+    "artistName": "Rivers & Robots",
+    "genre": "Christian"
+  },
+  {
+    "name": "Shepherd of My Soul",
+    "albumName": "All Things New",
+    "artistName": "Rivers & Robots",
+    "genre": "Christian"
+  },
+  {
+    "name": "The Thrill Is Gone",
+    "albumName": "B.B. King & Friends - 80",
+    "artistName": "B.B. King",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "Don't Let Me Fade Away",
+    "albumName": "Deadweight",
+    "artistName": "Wage War",
+    "genre": "Metal"
+  },
+  {
+    "name": "On My Feet Again",
+    "albumName": "Turn Around",
+    "artistName": "Jonny Lang",
+    "genre": "Chill"
+  },
+  {
+    "name": "Smoke on the Water (2012 Remaster)",
+    "albumName": "Machine Head (2016 Version)",
+    "artistName": "Deep Purple",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "The Longer I Run",
+    "albumName": "Leavetaking",
+    "artistName": "Peter Bradley Adams",
+    "genre": "Sad"
+  },
+  {
+    "name": "Beast Of Burden (Remastered 2005)",
+    "albumName": "Sucking In The Seventies (Digitally Remastered 2005)",
+    "artistName": "The Rolling Stones",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "Sleeping on the Blacktop",
+    "albumName": "Imaginary Appalachia",
+    "artistName": "Colter Wall",
+    "genre": "Country"
+  },
+  {
+    "name": "Second Guessing",
+    "albumName": "Wander This World",
+    "artistName": "Jonny Lang",
+    "genre": "Chill"
+  },
+  {
+    "name": "Baby Can I Hold You",
+    "albumName": "Tracy Chapman",
+    "artistName": "Tracy Chapman",
+    "genre": "Sad"
+  },
+  {
+    "name": "Shelter Me (feat. Louisiana's LeRoux)",
+    "albumName": "Power Of The Pontchartrain",
+    "artistName": "Tab Benoit",
+    "genre": "Chill"
+  },
+  {
+    "name": "Time to Confess",
+    "albumName": "The Deep End Vol. 2",
+    "artistName": "Gov't Mule",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "Invincible",
+    "albumName": "Fear Inoculum",
+    "artistName": "TOOL",
+    "genre": "Metal"
+  },
+  {
+    "name": "Bad Company",
+    "albumName": "A Decade of Destruction",
+    "artistName": "Five Finger Death Punch",
+    "genre": "Metal"
+  },
+  {
+    "name": "Enter Sandman",
+    "albumName": "Metallica",
+    "artistName": "Metallica",
+    "genre": "Metal"
+  },
+  {
+    "name": "Old Time Rock And Roll (Remastered 2011)",
+    "albumName": "Ultimate Hits: Rock And Roll Never Forgets (Remastered)",
+    "artistName": "Bob Seger & The Silver Bullet Band",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "Sad But True",
+    "albumName": "Metallica",
+    "artistName": "Metallica",
+    "genre": "Metal"
+  },
+  {
+    "name": "Schism",
+    "albumName": "Lateralus",
+    "artistName": "TOOL",
+    "genre": "Metal"
+  },
+  {
+    "name": "Nothing Else Matters",
+    "albumName": "Metallica",
+    "artistName": "Metallica",
+    "genre": "Sad"
+  },
+  {
+    "name": "One (Remastered)",
+    "albumName": "...And Justice for All (Remastered)",
+    "artistName": "Metallica",
+    "genre": "Metal"
+  },
+  {
+    "name": "Forty Six & 2",
+    "albumName": "Ænima",
+    "artistName": "TOOL",
+    "genre": "Metal"
+  },
+  {
+    "name": "Turn The Page",
+    "albumName": "Garage, Inc.",
+    "artistName": "Metallica",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "The Thing That Should Not Be (Remastered)",
+    "albumName": "Master of Puppets (Remastered)",
+    "artistName": "Metallica",
+    "genre": "Metal"
+  },
+  {
+    "name": "Master Of Puppets (Remastered)",
+    "albumName": "Master of Puppets (Remastered)",
+    "artistName": "Metallica",
+    "genre": "Metal"
+  },
+  {
+    "name": "Give Me One Reason",
+    "albumName": "New Beginning",
+    "artistName": "Tracy Chapman",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "The Sound of Silence (Live on CONAN)",
+    "albumName": "The Sound of Silence (Live on CONAN)",
+    "artistName": "Disturbed",
+    "genre": "Sad"
+  },
+  {
+    "name": "Heartache Tonight (2013 Remaster)",
+    "albumName": "The Long Run (2013 Remaster)",
+    "artistName": "Eagles",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "Of Wolf And Man",
+    "albumName": "Metallica",
+    "artistName": "Metallica",
+    "genre": "Metal"
+  },
+  {
+    "name": "Whole Lotta Love (Remaster)",
+    "albumName": "Led Zeppelin x Led Zeppelin",
+    "artistName": "Led Zeppelin",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "The Day That Never Comes",
+    "albumName": "Death Magnetic",
+    "artistName": "Metallica",
+    "genre": "Metal"
+  },
+  {
+    "name": "Slow Ride (2016 Remaster)",
+    "albumName": "Fool for the City (2016 Remaster)",
+    "artistName": "Foghat",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "When the Levee Breaks (Remaster)",
+    "albumName": "Led Zeppelin IV (Remaster)",
+    "artistName": "Led Zeppelin",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "Mary Jane's Last Dance",
+    "albumName": "The Best Of Everything - The Definitive Career Spanning Hits Collection 1976-2016",
+    "artistName": "Tom Petty & The Heartbreakers",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "For Those About to Rock (We Salute You)",
+    "albumName": "For Those About to Rock (We Salute You)",
+    "artistName": "AC/DC",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "Pour Some Sugar On Me (Radio Edit)",
+    "albumName": "Hysteria (Super Deluxe)",
+    "artistName": "Def Leppard",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "Entre Nous",
+    "albumName": "Permanent Waves (40th Anniversary)",
+    "artistName": "Rush",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "Moneytalks",
+    "albumName": "The Razors Edge",
+    "artistName": "AC/DC",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "Hotel California (2013 Remaster)",
+    "albumName": "Hotel California (2013 Remaster)",
+    "artistName": "Eagles",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "Juke Box Hero",
+    "albumName": "4 (Expanded)",
+    "artistName": "Foreigner",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "Love Bites (Radio Edit)",
+    "albumName": "Hysteria (Super Deluxe)",
+    "artistName": "Def Leppard",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "Sweet Child O' Mine",
+    "albumName": "Appetite For Destruction (Super Deluxe Edition)",
+    "artistName": "Guns N' Roses",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "The Ocean (Remaster)",
+    "albumName": "Houses of the Holy (Remaster)",
+    "artistName": "Led Zeppelin",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "Closer To The Heart",
+    "albumName": "A Farewell To Kings (40th Anniversary Deluxe Edition)",
+    "artistName": "Rush",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "Spirit In The Sky (Deluxe Edition)",
+    "albumName": "Spirit In The Sky (Deluxe Edition)",
+    "artistName": "Norman Greenbaum",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "Immigrant Song (Remaster)",
+    "albumName": "Led Zeppelin III (Remaster)",
+    "artistName": "Led Zeppelin",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "Welcome Home (Sanitarium) (Remastered)",
+    "albumName": "Master of Puppets (Remastered)",
+    "artistName": "Metallica",
+    "genre": "Metal"
+  },
+  {
+    "name": "Mississippi Queen",
+    "albumName": "Climbing!",
+    "artistName": "Mountain",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "Dirty Deeds Done Dirt Cheap (Original Australian Release)",
+    "albumName": "Backtracks",
+    "artistName": "AC/DC",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "Rock and Roll (Remaster)",
+    "albumName": "Led Zeppelin IV (Remaster)",
+    "artistName": "Led Zeppelin",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "Who Made Who",
+    "albumName": "Who Made Who",
+    "artistName": "AC/DC",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "Fat Bottomed Girls (1991 Bonus Remix)",
+    "albumName": "Jazz",
+    "artistName": "Queen",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "Hey, Hey, What Can I Do (Remaster)",
+    "albumName": "Coda (Deluxe Edition)",
+    "artistName": "Led Zeppelin",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "Fuel",
+    "albumName": "Reload",
+    "artistName": "Metallica",
+    "genre": "Metal"
+  },
+  {
+    "name": "More Than a Feeling",
+    "albumName": "Rock: The Train Kept A Rollin'",
+    "artistName": "Boston",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "Highway to Hell",
+    "albumName": "Iron Man 2",
+    "artistName": "AC/DC",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "Let's Get Rocked",
+    "albumName": "Adrenalize (Deluxe)",
+    "artistName": "Def Leppard",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "Rocket (Remastered 2017)",
+    "albumName": "Hysteria (Super Deluxe)",
+    "artistName": "Def Leppard",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "Dream On",
+    "albumName": "Aerosmith",
+    "artistName": "Aerosmith",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "Sharp Dressed Man (2008 Remaster)",
+    "albumName": "Eliminator",
+    "artistName": "ZZ Top",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "Foolin'",
+    "albumName": "Pyromania (Deluxe)",
+    "artistName": "Def Leppard",
+    "genre": "Classic Rock"
+  },
+  {
+    "name": "All My Love (Remaster)",
+    "albumName": "In Through the out Door (Remaster)",
+    "artistName": "Led Zeppelin",
+    "genre": "Classic Rock"
+  }
+]
