@@ -19,7 +19,7 @@ def get_playlist_tracks(playlist_id):
         tracks.extend(results['items'])
     return tracks
 
-def main():
+def save_all_songs():
     """
     Main function to get all playlist tracks and save them to JSON files.
     """
@@ -60,4 +60,4 @@ def main():
             print(f"An error occurred while processing playlist '{playlist_name}': {e}")
 
 if __name__ == "__main__":
-    main()
+    save_all_songs()
