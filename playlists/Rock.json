@@ -1,0 +1,262 @@
+[
+    {
+        "name": "Here Without You",
+        "albumName": "Away From The Sun",
+        "artistName": "3 Doors Down"
+    },
+    {
+        "name": "When I'm Gone",
+        "albumName": "Away From The Sun",
+        "artistName": "3 Doors Down"
+    },
+    {
+        "name": "House of the Rising Sun",
+        "albumName": "The Wrong Side of Heaven and the Righteous Side of Hell, Vol. 2",
+        "artistName": "Five Finger Death Punch"
+    },
+    {
+        "name": "Gone Away",
+        "albumName": "And Justice for None (Deluxe)",
+        "artistName": "Five Finger Death Punch"
+    },
+    {
+        "name": "So Called Life",
+        "albumName": "EXPLOSIONS",
+        "artistName": "Three Days Grace"
+    },
+    {
+        "name": "Never Too Late",
+        "albumName": "One-X",
+        "artistName": "Three Days Grace"
+    },
+    {
+        "name": "So Cold",
+        "albumName": "Shallow Bay: The Best Of Breaking Benjamin (Explicit)",
+        "artistName": "Breaking Benjamin"
+    },
+    {
+        "name": "The Diary Of Jane",
+        "albumName": "Shallow Bay: The Best Of Breaking Benjamin (Explicit)",
+        "artistName": "Breaking Benjamin"
+    },
+    {
+        "name": "Crawl",
+        "albumName": "Dear Agony",
+        "artistName": "Breaking Benjamin"
+    },
+    {
+        "name": "Dear Agony",
+        "albumName": "Dear Agony",
+        "artistName": "Breaking Benjamin"
+    },
+    {
+        "name": "M.I.N.E (End This Way)",
+        "albumName": "The Wrong Side of Heaven and the Righteous Side of Hell, Vol. 1 (Deluxe Edition)",
+        "artistName": "Five Finger Death Punch"
+    },
+    {
+        "name": "Far From Home",
+        "albumName": "War Is the Answer",
+        "artistName": "Five Finger Death Punch"
+    },
+    {
+        "name": "Last Resort",
+        "albumName": "Infest",
+        "artistName": "Papa Roach"
+    },
+    {
+        "name": "Rx (Medicate)",
+        "albumName": "Wake Up Call",
+        "artistName": "Theory of a Deadman"
+    },
+    {
+        "name": "Angel",
+        "albumName": "Savages",
+        "artistName": "Theory of a Deadman"
+    },
+    {
+        "name": "It's Not Over",
+        "albumName": "Daughtry (Deluxe Edition)",
+        "artistName": "Daughtry"
+    },
+    {
+        "name": "Fake It",
+        "albumName": "Finding Beauty In Negative Spaces (Bonus Track Version)",
+        "artistName": "Seether"
+    },
+    {
+        "name": "Broken",
+        "albumName": "Disclaimer II",
+        "artistName": "Seether"
+    },
+    {
+        "name": "So Far Away",
+        "albumName": "14 Shades of Grey",
+        "artistName": "Staind"
+    },
+    {
+        "name": "Addicted",
+        "albumName": "Saving Abel",
+        "artistName": "Saving Abel"
+    },
+    {
+        "name": "Counting Stars",
+        "albumName": "Counting Stars",
+        "artistName": "No Resolve"
+    },
+    {
+        "name": "Without Me",
+        "albumName": "Without Me",
+        "artistName": "Fame on Fire"
+    },
+    {
+        "name": "Notorious",
+        "albumName": "Notorious",
+        "artistName": "Adelitas Way"
+    },
+    {
+        "name": "What It Takes",
+        "albumName": "Shine On",
+        "artistName": "Adelitas Way"
+    },
+    {
+        "name": "Lie To Me",
+        "albumName": "Anthem For The Underdog (Bonus Track Version)",
+        "artistName": "12 Stones"
+    },
+    {
+        "name": "Painkiller",
+        "albumName": "Human",
+        "artistName": "Three Days Grace"
+    },
+    {
+        "name": "Who Taught You How to Hate",
+        "albumName": "Immortalized (Deluxe Edition)",
+        "artistName": "Disturbed"
+    },
+    {
+        "name": "Blood",
+        "albumName": "Ember",
+        "artistName": "Breaking Benjamin"
+    },
+    {
+        "name": "Blank Space",
+        "albumName": "Heart Vs. Mind",
+        "artistName": "I Prevail"
+    },
+    {
+        "name": "Hopeless",
+        "albumName": "Dear Agony",
+        "artistName": "Breaking Benjamin"
+    },
+    {
+        "name": "In the End",
+        "albumName": "Hybrid Theory (Bonus Edition)",
+        "artistName": "Linkin Park"
+    },
+    {
+        "name": "Numb",
+        "albumName": "Meteora",
+        "artistName": "Linkin Park"
+    },
+    {
+        "name": "Jenny",
+        "albumName": "Nothing More",
+        "artistName": "NOTHING MORE"
+    },
+    {
+        "name": "I Will Not Bow",
+        "albumName": "Dear Agony",
+        "artistName": "Breaking Benjamin"
+    },
+    {
+        "name": "Just Like You",
+        "albumName": "Three Days Grace",
+        "artistName": "Three Days Grace"
+    },
+    {
+        "name": "Hemorrhage (In My Hands)",
+        "albumName": "Something Like Human",
+        "artistName": "Fuel"
+    },
+    {
+        "name": "Breath",
+        "albumName": "Phobia (Clean Version)",
+        "artistName": "Breaking Benjamin"
+    },
+    {
+        "name": "One Last Breath",
+        "albumName": "Weathered",
+        "artistName": "Creed"
+    },
+    {
+        "name": "Cursive",
+        "albumName": "Happy Never After",
+        "artistName": "VOILÀ"
+    },
+    {
+        "name": "The Dark of You",
+        "albumName": "Ember",
+        "artistName": "Breaking Benjamin"
+    },
+    {
+        "name": "Every Time You Leave",
+        "albumName": "TRAUMA",
+        "artistName": "I Prevail"
+    },
+    {
+        "name": "One (Remastered)",
+        "albumName": "...And Justice for All (Remastered Deluxe Box Set)",
+        "artistName": "Metallica"
+    },
+    {
+        "name": "Mad At Myself",
+        "albumName": "Issues",
+        "artistName": "Issues"
+    },
+    {
+        "name": "Sound of Madness",
+        "albumName": "The Sound of Madness (Deluxe Edition)",
+        "artistName": "Shinedown"
+    },
+    {
+        "name": "tension",
+        "albumName": "tension",
+        "artistName": "Haiden Henderson"
+    },
+    {
+        "name": "Stuck In My Head",
+        "albumName": "Afterglow",
+        "artistName": "Sleep Theory"
+    },
+    {
+        "name": "Bad Company",
+        "albumName": "War Is the Answer",
+        "artistName": "Five Finger Death Punch"
+    },
+    {
+        "name": "First Kiss",
+        "albumName": "Tasmanian Glow",
+        "artistName": "Strawberry Girls"
+    },
+    {
+        "name": "Forty Six & 2",
+        "albumName": "Ænima",
+        "artistName": "TOOL"
+    },
+    {
+        "name": "Eyes Closed",
+        "albumName": "LOOM",
+        "artistName": "Imagine Dragons"
+    },
+    {
+        "name": "Here Without You - 2023 Remaster",
+        "albumName": "Away From The Sun (Deluxe)",
+        "artistName": "3 Doors Down"
+    },
+    {
+        "name": "Another Way",
+        "albumName": "Another Way",
+        "artistName": "Sleep Theory"
+    }
+]

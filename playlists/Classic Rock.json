@@ -1,0 +1,317 @@
+[
+    {
+        "name": "Black Dog - Remaster",
+        "albumName": "Led Zeppelin IV (Deluxe Edition)",
+        "artistName": "Led Zeppelin"
+    },
+    {
+        "name": "Black Hole Sun",
+        "albumName": "Superunknown (Deluxe Edition)",
+        "artistName": "Soundgarden"
+    },
+    {
+        "name": "Crazy Train",
+        "albumName": "Blizzard Of Ozz (40th Anniversary Expanded Edition)",
+        "artistName": "Ozzy Osbourne"
+    },
+    {
+        "name": "Money",
+        "albumName": "The Dark Side of the Moon",
+        "artistName": "Pink Floyd"
+    },
+    {
+        "name": "Another Brick in the Wall, Pt. 2",
+        "albumName": "The Wall",
+        "artistName": "Pink Floyd"
+    },
+    {
+        "name": "Dirty Deeds Done Dirt Cheap",
+        "albumName": "Dirty Deeds Done Dirt Cheap",
+        "artistName": "AC/DC"
+    },
+    {
+        "name": "Rock And Roll All Nite",
+        "albumName": "Dressed To Kill",
+        "artistName": "KISS"
+    },
+    {
+        "name": "Rock You Like A Hurricane",
+        "albumName": "Love At First Sting",
+        "artistName": "Scorpions"
+    },
+    {
+        "name": "Simple Man",
+        "albumName": "Pronounced' Leh-'Nerd 'Skin-'Nerd",
+        "artistName": "Lynyrd Skynyrd"
+    },
+    {
+        "name": "Even Flow",
+        "albumName": "Ten",
+        "artistName": "Pearl Jam"
+    },
+    {
+        "name": "Have You Ever Seen The Rain",
+        "albumName": "Pendulum (Expanded Edition)",
+        "artistName": "Creedence Clearwater Revival"
+    },
+    {
+        "name": "Sweet Home Alabama",
+        "albumName": "Second Helping (Expanded Edition)",
+        "artistName": "Lynyrd Skynyrd"
+    },
+    {
+        "name": "Walk This Way",
+        "albumName": "Toys In The Attic",
+        "artistName": "Aerosmith"
+    },
+    {
+        "name": "Whole Lotta Love - 1990 Remaster",
+        "albumName": "Led Zeppelin II (1994 Remaster)",
+        "artistName": "Led Zeppelin"
+    },
+    {
+        "name": "Layla",
+        "albumName": "Layla And Other Assorted Love Songs (Remastered 2010)",
+        "artistName": "Derek & The Dominos"
+    },
+    {
+        "name": "Paranoid - 2012 - Remaster",
+        "albumName": "Paranoid (Remaster)",
+        "artistName": "Black Sabbath"
+    },
+    {
+        "name": "Sunshine Of Your Love",
+        "albumName": "Disraeli Gears (Deluxe Edition)",
+        "artistName": "Cream"
+    },
+    {
+        "name": "Purple Haze",
+        "albumName": "Are You Experienced",
+        "artistName": "Jimi Hendrix"
+    },
+    {
+        "name": "Back In Black",
+        "albumName": "Back In Black",
+        "artistName": "AC/DC"
+    },
+    {
+        "name": "T.N.T.",
+        "albumName": "High Voltage",
+        "artistName": "AC/DC"
+    },
+    {
+        "name": "You Shook Me All Night Long",
+        "albumName": "Back In Black",
+        "artistName": "AC/DC"
+    },
+    {
+        "name": "Tom Sawyer",
+        "albumName": "Moving Pictures (2011 Remaster)",
+        "artistName": "Rush"
+    },
+    {
+        "name": "Limelight",
+        "albumName": "Moving Pictures (2011 Remaster)",
+        "artistName": "Rush"
+    },
+    {
+        "name": "Working Man",
+        "albumName": "Rush",
+        "artistName": "Rush"
+    },
+    {
+        "name": "Pour Some Sugar On Me - Remastered 2017",
+        "albumName": "Hysteria (Super Deluxe)",
+        "artistName": "Def Leppard"
+    },
+    {
+        "name": "Armageddon It - Remastered 2017",
+        "albumName": "Hysteria (Super Deluxe)",
+        "artistName": "Def Leppard"
+    },
+    {
+        "name": "Fortunate Son",
+        "albumName": "Willy And The Poor Boys (Expanded Edition)",
+        "artistName": "Creedence Clearwater Revival"
+    },
+    {
+        "name": "Down On The Corner",
+        "albumName": "Willy And The Poor Boys (Expanded Edition)",
+        "artistName": "Creedence Clearwater Revival"
+    },
+    {
+        "name": "Livin' On A Prayer",
+        "albumName": "Slippery When Wet",
+        "artistName": "Bon Jovi"
+    },
+    {
+        "name": "You Give Love A Bad Name",
+        "albumName": "Slippery When Wet",
+        "artistName": "Bon Jovi"
+    },
+    {
+        "name": "Wanted Dead Or Alive",
+        "albumName": "Slippery When Wet",
+        "artistName": "Bon Jovi"
+    },
+    {
+        "name": "Hold On Loosely",
+        "albumName": "Wild-Eyed Southern Boys",
+        "artistName": "38 Special"
+    },
+    {
+        "name": "In The Air Tonight - 2015 Remastered",
+        "albumName": "Face Value (Deluxe Editon)",
+        "artistName": "Phil Collins"
+    },
+    {
+        "name": "Another One Bites The Dust - Remastered 2011",
+        "albumName": "The Game (2011 Remaster)",
+        "artistName": "Queen"
+    },
+    {
+        "name": "Who Made Who",
+        "albumName": "Who Made Who",
+        "artistName": "AC/DC"
+    },
+    {
+        "name": "Dirty Deeds Done Dirt Cheap - Original Australian Release",
+        "albumName": "Backtracks",
+        "artistName": "AC/DC"
+    },
+    {
+        "name": "Let's Get Rocked",
+        "albumName": "Adrenalize (Deluxe)",
+        "artistName": "Def Leppard"
+    },
+    {
+        "name": "Closer To The Heart",
+        "albumName": "A Farewell To Kings",
+        "artistName": "Rush"
+    },
+    {
+        "name": "Dream On",
+        "albumName": "Aerosmith",
+        "artistName": "Aerosmith"
+    },
+    {
+        "name": "One Last Breath",
+        "albumName": "Weathered",
+        "artistName": "Creed"
+    },
+    {
+        "name": "Smooth (feat. Rob Thomas)",
+        "albumName": "Supernatural (Legacy Edition)",
+        "artistName": "Santana"
+    },
+    {
+        "name": "Heartache Tonight - 2013 Remaster",
+        "albumName": "The Long Run (2013 Remaster)",
+        "artistName": "Eagles"
+    },
+    {
+        "name": "Sweet Child O' Mine",
+        "albumName": "Appetite For Destruction",
+        "artistName": "Guns N' Roses"
+    },
+    {
+        "name": "Beast Of Burden - Remastered 2005",
+        "albumName": "Sucking In The Seventies",
+        "artistName": "The Rolling Stones"
+    },
+    {
+        "name": "Mississippi Queen",
+        "albumName": "Climbing!",
+        "artistName": "Mountain"
+    },
+    {
+        "name": "Hotel California - 2013 Remaster",
+        "albumName": "Hotel California (2013 Remaster)",
+        "artistName": "Eagles"
+    },
+    {
+        "name": "Rocket - Remastered 2017",
+        "albumName": "Hysteria (Super Deluxe)",
+        "artistName": "Def Leppard"
+    },
+    {
+        "name": "Love Bites - Radio Edit",
+        "albumName": "Hysteria (Super Deluxe)",
+        "artistName": "Def Leppard"
+    },
+    {
+        "name": "Pour Some Sugar On Me - Radio Edit",
+        "albumName": "Hysteria (Super Deluxe)",
+        "artistName": "Def Leppard"
+    },
+    {
+        "name": "Juke Box Hero - 2008 Remaster",
+        "albumName": "No End in Sight: The Very Best of Foreigner (Expanded)",
+        "artistName": "Foreigner"
+    },
+    {
+        "name": "Mary Jane's Last Dance",
+        "albumName": "Greatest Hits",
+        "artistName": "Tom Petty and the Heartbreakers"
+    },
+    {
+        "name": "Hurts So Good",
+        "albumName": "American Fool",
+        "artistName": "John Mellencamp"
+    },
+    {
+        "name": "More Than a Feeling",
+        "albumName": "Driving Anthems",
+        "artistName": "Boston"
+    },
+    {
+        "name": "Fat Bottomed Girls - 1991 Bonus Remix",
+        "albumName": "Jazz",
+        "artistName": "Queen"
+    },
+    {
+        "name": "Moneytalks",
+        "albumName": "The Razors Edge",
+        "artistName": "AC/DC"
+    },
+    {
+        "name": "Enter Sandman (Remastered)",
+        "albumName": "Metallica (Remastered)",
+        "artistName": "Metallica"
+    },
+    {
+        "name": "Sad But True (Remastered)",
+        "albumName": "Metallica (Remastered)",
+        "artistName": "Metallica"
+    },
+    {
+        "name": "Of Wolf and Man (Remastered)",
+        "albumName": "Metallica (Remastered)",
+        "artistName": "Metallica"
+    },
+    {
+        "name": "Old Time Rock And Roll - Remastered 2011",
+        "albumName": "Ultimate Hits: Rock And Roll Never Forgets (Remastered)",
+        "artistName": "Bob Seger"
+    },
+    {
+        "name": "Foolin'",
+        "albumName": "Pyromania",
+        "artistName": "Def Leppard"
+    },
+    {
+        "name": "Schism",
+        "albumName": "Lateralus",
+        "artistName": "TOOL"
+    },
+    {
+        "name": "Life in the Fast Lane - 2013 Remaster",
+        "albumName": "Eagles Greatest Hits Vol. 2 (2013 Remaster)",
+        "artistName": "Eagles"
+    },
+    {
+        "name": "For Those About to Rock (We Salute You)",
+        "albumName": "For Those About to Rock (We Salute You)",
+        "artistName": "AC/DC"
+    }
+]
