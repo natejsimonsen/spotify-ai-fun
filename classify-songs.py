@@ -1,14 +1,22 @@
-import spotipy
 import json
 import os
-from spotipy.oauth2 import SpotifyOAuth
+import sys
 from os import listdir
 from os.path import isfile, join
-   
+
+import spotipy
+from colorama import Fore, init
+from spotipy.oauth2 import SpotifyOAuth
+
+from music_ai import get_genre
+from utils import clear_terminal
 
 # Set your Spotify API credentials and scope
 scope = "user-library-modify playlist-read-private"
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(scope=scope))
+
+init(autoreset=True)
+
 
 def get_playlist_tracks(playlist_id):
     """
@@ -16,45 +24,46 @@ def get_playlist_tracks(playlist_id):
     """
     tracks = []
     results = sp.playlist_items(playlist_id)
-    tracks.extend(results['items'])
-    while results['next']:
+    tracks.extend(results["items"])
+    while results["next"]:
         results = sp.next(results)
-        tracks.extend(results['items'])
+        tracks.extend(results["items"])
     return tracks
+
 
 def save_all_songs():
     """
     Main function to get all playlist tracks and save them to JSON files.
     """
-    # Create the 'playlists' directory if it doesn't exist
-    if not os.path.exists('playlists'):
-        os.makedirs('playlists')
+    os.makedirs("playlists", exist_ok=True)
 
-    # Get the current user's playlists
     playlists = sp.current_user_playlists()
 
-    # Iterate through each playlist
-    for playlist in playlists['items']:
-        playlist_name = playlist['name']
-        playlist_id = playlist['id']
+    for playlist in playlists["items"]:
+        playlist_name = playlist["name"]
+        playlist_id = playlist["id"]
         print(f"Processing playlist: {playlist_name}")
 
         all_tracks = []
         try:
             tracks_info = get_playlist_tracks(playlist_id)
             for item in tracks_info:
-                track = item['track']
-                if track and track['name'] and track['album'] and track['artists']:
+                track = item["track"]
+                if track and track["name"] and track["album"] and track["artists"]:
                     track_data = {
-                        "name": track['name'],
-                        "albumName": track['album']['name'],
-                        "artistName": track['artists'][0]['name']
+                        "name": track["name"],
+                        "albumName": track["album"]["name"],
+                        "artistName": track["artists"][0]["name"],
                     }
                     all_tracks.append(track_data)
-            filename = f"playlists/{playlist_name.replace('/', '_').replace(':', '_')}.json"
-            with open(filename, 'w', encoding='utf-8') as f:
+            filename = (
+                f"playlists/{playlist_name.replace('/', '_').replace(':', '_')}.json"
+            )
+            with open(filename, "w", encoding="utf-8") as f:
                 json.dump(all_tracks, f, ensure_ascii=False, indent=4)
-            print(f"Saved {len(all_tracks)} tracks from '{playlist_name}' to {filename}")
+            print(
+                f"Saved {len(all_tracks)} tracks from '{playlist_name}' to {filename}"
+            )
 
         except Exception as e:
             print(f"An error occurred while processing playlist '{playlist_name}': {e}")
@@ -74,6 +83,84 @@ def get_playlist_file_data():
     return playlist_data
 
 
+def add_genres_to_playlist():
+    """
+    Returns a list of genres that a user specifies
+    Genre must be in the accepted-genres.json file
+    """
+    user_input = ""
+    genres = []
+    accepted_genres = []
+
+    try:
+        with open("accepted-genres.json", "r") as json_data:
+            accepted_genres = json.load(json_data)
+    except Exception as e:
+        print(f"Could not open accepted-genres.json file: {e}")
+
+    while user_input != "q":
+        user_input = input(Fore.BLUE + "Add genre (q to quit): ")
+        genre = user_input.strip().title()
+        if genre not in accepted_genres:
+            print(Fore.RED + "Genre not accepted, only acceptable genres are: ")
+            for g in accepted_genres:
+                print("    " + g)
+            continue
+        genres.append(genre)
+    clear_terminal()
+    return genres
+
+
+def prompt_for_continue(playlist):
+    clear_terminal()
+    print(Fore.WHITE + "Going to add genres for: " + Fore.MAGENTA + playlist)
+    for g in genre["genres"]:
+        print("    " + Fore.GREEN + g)
+    print()
+
+    user_input = input(f"Save genres for {playlist}? (y/n): ")
+
+    return user_input.lower().strip()
+
+
+def save_playlist_genre(playlist, genre):
+    """Saves the playlist genres genres/{playlist}.json, with prompts to add / remove genres"""
+    os.makedirs("genres", exist_ok=True)
+    user_input = ""
+    save = True
+
+    while user_input != "y":
+        user_input = prompt_for_continue(playlist)
+        if user_input == "n":
+            save = False
+            break
+
+        if user_input == "a":
+            clear_terminal()
+            genre["genres"].extend(add_genres_to_playlist())
+
+        if user_input == "d":
+            clear_terminal()
+            genre["genres"].extend(add_genres_to_playlist())
+
+    if not save:
+        return
+
+    try:
+        with open(f"genres/{playlist}.json", "w") as playlist_file:
+            json.dump(genre, playlist_file, indent=4)
+    except Exception as e:
+        print(f"Cannot save playlist genre file at genres/{playlist}.json: {e}")
+
+
 if __name__ == "__main__":
-    # save_all_songs()
-    playlists = get_playlist_file_data()
+    try:
+        # save_all_songs()
+        playlists = get_playlist_file_data()
+        for playlist_key in playlists:
+            genre = {"genres": ["Jazz", "Old Soul"]}
+            save_playlist_genre(playlist_key, genre)
+
+        clear_terminal()
+    except KeyboardInterrupt:
+        sys.exit(0)
