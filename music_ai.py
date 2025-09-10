@@ -7,6 +7,10 @@ client = OpenAI()
 
 
 def get_genre(playlist_name):
+    """
+    Gets a genre summary about a playlist in playlists/{playlist}.json
+    from open ai
+    """
     file_path = Path(f"playlists/{playlist_name}.json")
 
     try:
@@ -19,7 +23,7 @@ def get_genre(playlist_name):
     prompt_message = (
         "You are an expert music critic. Analyze the following JSON data, which is a list of songs "
         "in a playlist, and classify its primary genre(s).\n\n"
-        "The acceptable genres are: Pop, Hip-Hop, Rock, Soul, Gospel, Country, EDM, Latin, Jazz, "
+        "The acceptable genres are: Pop, Blues, Rap, Hip-Hop, Rock, Soul, Gospel, Country, EDM, Latin, Jazz, "
         "Classical, Folk, Classic Rock, Grunge, Alternative, Metal, Heavy Metal, Funk, "
         "Christian, Oldie, Alternative Rock, Indie\n\n"
         "The playlist data is:\n\n"
@@ -34,7 +38,9 @@ def get_genre(playlist_name):
         messages=[{"role": "user", "content": prompt_message}],
     )
 
-    return response.choices[0].message.content
+    if response.choices[0].message.content is not None:
+        return json.loads(response.choices[0].message.content)
+    return None
 
 
 if __name__ == "__main__":
