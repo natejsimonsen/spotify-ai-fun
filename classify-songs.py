@@ -83,13 +83,13 @@ def get_playlist_file_data():
     return playlist_data
 
 
-def add_genres_to_playlist():
+def add_genres_to_playlist(genres):
     """
     Returns a list of genres that a user specifies
     Genre must be in the accepted-genres.json file
     """
     user_input = ""
-    genres = []
+    genres_to_add = []
     accepted_genres = []
 
     try:
@@ -98,27 +98,61 @@ def add_genres_to_playlist():
     except Exception as e:
         print(f"Could not open accepted-genres.json file: {e}")
 
-    while user_input != "q":
-        user_input = input(Fore.BLUE + "Add genre (q to quit): ")
+    while True:
+        print(Fore.MAGENTA + "(Add Genre) Current Genres:")
+        [print(Fore.GREEN + "  " + g) for g in genres]
+        [print(Fore.GREEN + "  " + g) for g in genres_to_add]
+        print()
+        user_input = input("Add genre (q to quit): " + Fore.WHITE)
+        if user_input.lower().strip() == "q":
+            break
+
         genre = user_input.strip().title()
         if genre not in accepted_genres:
             print(Fore.RED + "Genre not accepted, only acceptable genres are: ")
             for g in accepted_genres:
                 print("    " + g)
             continue
-        genres.append(genre)
-    clear_terminal()
-    return genres
+        genres_to_add.append(genre)
+        clear_terminal()
+    return genres_to_add
 
 
-def prompt_for_continue(playlist):
+def remove_genres(genres):
+    """
+    Lets a user "delete" genres by returning a new list without those genres
+    """
+    user_input = ""
+    genres_to_delete = []
+
+    while user_input.lower().strip() != "q":
+        print(Fore.MAGENTA + "(Remove Genre) Current Genres:")
+        [print(Fore.GREEN + "  " + g) for g in genres if g not in genres_to_delete]
+        print()
+        user_input = input("Remove genre (q to quit): ")
+        genre = user_input.strip().title()
+        if genre not in genres:
+            clear_terminal()
+            print(Fore.RED + "Genre not accepted, only genres left are: ")
+            for g in genres:
+                print("    " + g)
+            continue
+        genres_to_delete.append(genre)
+        clear_terminal()
+
+    new_genres = [genre for genre in genres if genre not in genres_to_delete]
+
+    return new_genres
+
+
+def prompt_for_continue(playlist, genre):
     clear_terminal()
-    print(Fore.WHITE + "Going to add genres for: " + Fore.MAGENTA + playlist)
+    print(Fore.MAGENTA + "(Save) Current Genres:")
     for g in genre["genres"]:
         print("    " + Fore.GREEN + g)
     print()
 
-    user_input = input(f"Save genres for {playlist}? (y/n): ")
+    user_input = input(f"Save genres for {playlist}? (y/n/a/d): ")
 
     return user_input.lower().strip()
 
@@ -130,18 +164,18 @@ def save_playlist_genre(playlist, genre):
     save = True
 
     while user_input != "y":
-        user_input = prompt_for_continue(playlist)
+        user_input = prompt_for_continue(playlist, genre)
         if user_input == "n":
             save = False
             break
 
         if user_input == "a":
             clear_terminal()
-            genre["genres"].extend(add_genres_to_playlist())
+            genre["genres"].extend(add_genres_to_playlist(genre["genres"]))
 
         if user_input == "d":
             clear_terminal()
-            genre["genres"].extend(add_genres_to_playlist())
+            genre["genres"] = remove_genres(genre["genres"])
 
     if not save:
         return
@@ -158,7 +192,7 @@ if __name__ == "__main__":
         # save_all_songs()
         playlists = get_playlist_file_data()
         for playlist_key in playlists:
-            genre = {"genres": ["Jazz", "Old Soul"]}
+            genre = get_genre(playlist_key)
             save_playlist_genre(playlist_key, genre)
 
         clear_terminal()
